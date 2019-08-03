@@ -2,15 +2,15 @@
   "name": "newman",
   "version": "1.0.0",
   "description": "postman newman jenkins",
-  "main": "index.js",
+   "directories": {
+    "tests": "tests"
+  },
+  "scripts": {
+    "newman-tests": "newman run test.json -d 58702574.csv -r htmlextra"
+  },
+  "author": "Baskar Sekaran",
   "dependencies": {
     "newman-reporter-htmlextra": "^1.8.6",
     "newman": "^4.5.3"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "newman run test.json -d 58702574.csv -r htmlextra"
-  },
-  "author": "Baskar Sekaran",
-  "license": "ISC"
 }

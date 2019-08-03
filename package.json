@@ -2,9 +2,6 @@
   "name": "newman",
   "version": "1.0.0",
   "description": "postman newman jenkins",
-   "directories": {
-    "tests": "tests"
-  },
   "scripts": {
     "newman-tests": "newman run test.json -d 58702574.csv -r htmlextra"
   },
